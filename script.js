@@ -9,7 +9,7 @@ moreBtn.addEventListener('click', function() {
         moreBtn.innerHTML = 'Скрыть';
         moreBtn.classList.add('container__more-text--less');
     } else {
-        moreBtn.innerHTML = 'Показать больше';
+        moreBtn.innerHTML = 'Показать все';
         moreBtn.classList.remove('container__more-text--less');
     }
 });
